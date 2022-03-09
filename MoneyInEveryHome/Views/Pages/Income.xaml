@@ -1,0 +1,60 @@
+﻿<Page x:Class="MoneyInEveryHome.Views.Pages.Income"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MoneyInEveryHome.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Доход">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Width="200" Height="260" Background="#FFDEEBF7">
+                <Label Width="200" Height="260" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Label.Content>
+                        <Grid>
+                            <TextBlock Text="Стабильный" FontSize="25" VerticalAlignment="Center" Margin="25,0,0,0" ></TextBlock>
+                            <!--<StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                                <TextBlock Text="Без пополнения Без снятия" TextWrapping="WrapWithOverflow" ></TextBlock>
+                            </StackPanel>-->
+                        </Grid>
+                    </Label.Content>
+                </Label>
+            </Button>
+            <Button Width="200" Height="260" Margin="30,0,0,0">
+                <Label Width="200" Height="260" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFDEEBF7">
+                    <Label.Content>
+                        <Grid>
+                            <TextBlock Text="Оптимальный" FontSize="25" VerticalAlignment="Center" Margin="20,0,0,0" ></TextBlock>
+                        </Grid>
+                    </Label.Content>
+                </Label>
+            </Button>
+            <Button Width="200" Height="260" Margin="30,0,0,0">
+                <Label Width="200" Height="260" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFDEEBF7">
+                    <Label.Content>
+                        <Grid>
+                            <TextBlock Text="Стандарт" FontSize="25" VerticalAlignment="Center" Margin="40,0,0,0"  HorizontalAlignment="Center"></TextBlock>
+                        </Grid>
+                    </Label.Content>
+                </Label>
+            </Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20">
+            <Button Content="Рассчитать доход" FontSize="16" Foreground="White" Width="250" Height="30" Background="#FF2C7DE0"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
+
+                    <!--<StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="Стандарт" FontSize="22"></TextBlock>
+                    <StackPanel Margin="5,0,0,0" VerticalAlignment="Center">
+                        <TextBlock Text="Пополняемый" TextWrapping="WrapWithOverflow"></TextBlock>
+                        <TextBlock Text="Без снятия"></TextBlock>
+                        <TextBlock Text="Без капитализации"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Margin="10">
+                        <TextBlock Text="Минимальный срок от 3 месяцев" TextWrapping="WrapWithOverflow" ></TextBlock>
+                    </StackPanel>
+                </StackPanel>-->
